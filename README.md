@@ -5,7 +5,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
 [![Go Report Card](https://goreportcard.com/badge/github.com/projectdiscovery/shuffledns)](https://goreportcard.com/report/github.com/projectdiscovery/shuffledns)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/projectdiscovery/shuffledns/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/0xrishabh/shuffledns/issues)
 
 shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support.
 
@@ -80,7 +80,7 @@ You also need to provide wordlist, you can use a custom wordlist or use the comm
 
 ### From Binary
 
-The installation is easy. You can download the pre-built binaries for your platform from the [Releases](https://github.com/projectdiscovery/shuffledns/releases/) page. Extract them using tar, move it to your $PATH and you're ready to go.
+The installation is easy. You can download the pre-built binaries for your platform from the [Releases](https://github.com/0xrishabh/shuffledns/releases/) page. Extract them using tar, move it to your $PATH and you're ready to go.
 
 ```bash
 > tar -xzvf shuffledns-linux-amd64.tar
@@ -93,7 +93,7 @@ The installation is easy. You can download the pre-built binaries for your platf
 shuffledns requires go1.13+ to install successfully. Run the following command to get the repo - 
 
 ```bash
-> GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
+> GO111MODULE=on go get -u -v github.com/0xrishabh/shuffledns/cmd/shuffledns
 ```
 
 In order to update the tool, you can use -u flag with `go get` command.
@@ -168,4 +168,4 @@ A special feature of shuffleDNS is its ability to handle multi-level DNS based w
 
 # License
 
-shuffleDNS is made with 🖤 by the [projectdiscovery](https://projectdiscovery.io) team. Community contributions have made the project what it is. See the **[Thanks.md](https://github.com/projectdiscovery/shuffledns/blob/master/THANKS.md)** file for more details.
+shuffleDNS is made with 🖤 by the [projectdiscovery](https://projectdiscovery.io) team. Community contributions have made the project what it is. See the **[Thanks.md](https://github.com/0xrishabh/shuffledns/blob/master/THANKS.md)** file for more details.

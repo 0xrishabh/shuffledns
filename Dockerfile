@@ -1,8 +1,8 @@
 FROM golang:1.14-alpine as build
 RUN apk --no-cache add git
-RUN go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns; exit 0
+RUN go get -u -v github.com/0xrishabh/shuffledns/cmd/shuffledns; exit 0
 ENV GO111MODULE on
-WORKDIR github.com/projectdiscovery/shuffledns/cmd/shuffledns
+WORKDIR github.com/0xrishabh/shuffledns/cmd/shuffledns
 RUN go install ./...
 
 FROM alpine:latest

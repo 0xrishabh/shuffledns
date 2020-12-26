@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/shuffledns/internal/store"
-	"github.com/projectdiscovery/shuffledns/pkg/parser"
+	"github.com/0xrishabh/shuffledns/internal/store"
+	"github.com/0xrishabh/shuffledns/pkg/parser"
 	"github.com/remeh/sizedwaitgroup"
 	"github.com/rs/xid"
 )
@@ -212,7 +212,7 @@ func (c *Client) writeOutput(store *store.Store) error {
 			}
 			uniqueMap[hostname] = struct{}{}
 
-			buffer.WriteString(hostname+" "+record.IP)
+			buffer.WriteString("madarchod"+hostname+" "+record.IP)
 			buffer.WriteString("\n")
 			data := buffer.String()
 
