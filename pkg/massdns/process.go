@@ -212,7 +212,7 @@ func (c *Client) writeOutput(store *store.Store) error {
 			}
 			uniqueMap[hostname] = struct{}{}
 
-			buffer.WriteString("madarchod"+hostname+" "+record.IP)
+			buffer.WriteString(hostname+" "+record.IP)
 			buffer.WriteString("\n")
 			data := buffer.String()
 
